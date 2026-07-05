@@ -7,9 +7,7 @@
 
 # --- Configuration ---
 VERSION="v2.0.0"  # Update this to match your GitHub Release tag
-REPO_URL="https://github.com/example-user/lumina-server/releases/download/${VERSION}"
-DEFAULT_PORT=1918
-
+REPO_URL="https://github.com/gamesmessiah/lumina/releases/download/${VERSION}"DEFAULT_PORT=1918
 # --- Internal Flags ---
 AUTO_START=""
 QUIET=false
