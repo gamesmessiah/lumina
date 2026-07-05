@@ -86,7 +86,7 @@ case "$OS" in
     Linux)
         echo "Downloading Linux binary from GitHub..."
         if command -v curl >/dev/null 2>&1; then
-            curl -L -sSF -o /usr/local/bin/lumina-server "${REPO_URL}/lumina-server-linux"
+            curl -sSL -o /usr/local/bin/lumina-server "${REPO_URL}/lumina-server-linux"
         elif command -v wget >/dev/null 2>&1; then
             wget -q -O /usr/local/bin/lumina-server "${REPO_URL}/lumina-server-linux"
         else
